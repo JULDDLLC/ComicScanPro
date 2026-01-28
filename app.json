@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "ComicScan Pro",
+    "slug": "comicscanpro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.julddllc.comicscanpro"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.julddllc.comicscanpro"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow ComicScan Pro to access your camera to scan comic books."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow ComicScan Pro to access your photos.",
+          "cameraPermission": "Allow ComicScan Pro to access your camera."
+        }
+      ]
+    ],
+    "sdkVersion": "54.0.0"
+  }
+}
